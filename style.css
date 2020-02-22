@@ -1,0 +1,57 @@
+/*
+    colors:
+    #65587F
+    #F18867
+    #E85F99
+    #50BDA1
+*/
+html {
+    font-size: 16 px;
+}
+
+div {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+    background-color: #65587F;
+    margin: 0px;
+    padding: 0px;
+}
+
+#mainText {
+    font-family: 'Raleway', ;
+    font-size: 4rem;
+    color: #50BDA1;
+
+    line-height: 1.5;
+    display: inline-block;
+    margin: auto;
+    vertical-align: middle;
+    text-align: center;
+
+    opacity: 1;
+}
+
+#centerBlock {
+    border: 0px solid green;
+    height: 100vh;
+    line-height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
+
+#unityContainer {
+    height: 0vh;
+    width: 0vh;
+
+    opacity: 0;
+
+    z-index:-999;
+
+    position:absolute;
+    top:0;
+    left:0;
+}
